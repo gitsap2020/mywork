@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2e2f0a7ad.js" crossorigin="anonymous"></script>
+    
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="signUpBox">
+        <div class="header">
+        <h1>Sign Up</h1>
+        </div>
+        <form method="post" class="forms" id="form">
+          <div class="form-control success">
+                <label for="">Username</label>
+                <input class="inputs" type="text" name="" placeholder="Enter Username" id="username">
+                <i class="fa-regular fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+             
+          </div>
+          <div class="form-control error">
+                <label for="">Email id</label>
+                <input class="inputs" type="email" name="" placeholder="Email id" id="emailId">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Please enter a valid email Id</small>
+        </div>
+        <div class="form-control">
+                <label for="">Password</label>
+                <input class="inputs" type="password" name="" placeholder="Enter Password" id="password">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small id="message">Please enter 8 characters</small>
+        </div>
+        <div class="form-control">
+            <label for="">Confirm Password</label>
+            <input class="inputs" type="password" name="" placeholder="Password" id="confirmpassword">
+        <i class="fa-regular fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <small>password not matching</small>
+    </div>
+        <button class="form-button" id="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
