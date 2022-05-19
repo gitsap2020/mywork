@@ -11,39 +11,6 @@ body{
     margin: 0;
     
 }
-/* .signUpBox
-{
-  
-}
-h1{
-    padding:2rem
-}
-.inputs
-{
-    margin: 0.5rem;
-    padding: 1rem;
-}
-.box
-{
-    display: flex;
-    flex-direction: column;
-}
-.submitbutton
-{
-    padding: 1rem;
-    border-radius: 5px;
-    margin: 0.5em;
-    cursor:pointer;
-    outline:none;
-
-    background-color: rgb(91, 225, 79);
-}
-.submitbutton:hover
-{
-    background-color: rgba(106, 144, 69, 0.884);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-} */
 .signUpBox
 {
     background-color: white;
